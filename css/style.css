@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+html, 
+body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: grey; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  background: #e4dcdc;  
+  height: 66px;
+  width: 100%;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo-text{
+   margin: 10px; 
+   font-family: 'Lucida Sans';
+} 
+
+header .logo-text span{
+    color: #ada6a6;
+}
+
+/*Page Wrapper*/
+.page-wrapper{
+    min-height: 100%;
+}
+
+.spanDown{
+    float: right;
+    color: black;
+    margin: 13px;
+    padding: 0px;
+    font-size: 11px;
+}
+
+.btnDown:hover{
+    background-color: green;
+    height: 34px;
+    width: 98px;
+	transition: all .3s ease;
+}
+
+.btnDown{
+   float: right; 
+   background-color: black;
+   color: white;
+   margin: 30px -160px 0px 0px;
+   width: 95px;
+   height: 30px;
+   border-radius:	10px;
+   border: none;
+
+}
+
+table{
+    border:5px solid black;
+    margin-top: -50px;
+    width: 80%;
+}
+
+table #one{
+    background-color: blueviolet;
+    height: 132px;
+}
+#two{
+    background-color: chartreuse;
+}
+#three{
+    background-color: coral;
+}
+#four{
+    background-color: deeppink;
+    height: 100px;
+}
+#five{
+    background-color: goldenrod;
+}
+#six{
+    background-color: blue;
+}
+
+.page-wrapper .details{
+    height: 50px;
+    width: 100%;
+    text-align: right;
+}
+.page-wrapper .section1{
+    display: flex;
+    height: 250px;
+    margin-top: -20px;
+}
+.page-wrapper .section1 .pro{
+    flex: 1;
+    padding: 25px;
+    margin-top: -30px;
+}
+
+.page-wrapper .section2{
+    display: flex;
+    height: 250px;
+    margin-top: -20px;
+}
+.page-wrapper .section2 .core{
+    flex: 1;
+    padding: 25px;
+    margin-top: -30px;
+}
+.page-wrapper .section2 .lang{
+    margin-left: -450px;
+}
+
+.page-wrapper .section3{
+    display: flex;
+    height: 250px;
+    margin-top: -20px;
+}
+.page-wrapper .section3 .part{
+    flex: 1;
+    padding: 8px;
+    margin-top: 58px;
+    width: 100%;
+}
+.page-wrapper .section3{
+    display: flex;
+    height: 250px;
+    margin-top: -20px;
+}
+.page-wrapper .section4{
+    display: flex;
+    height: 250px;
+    margin-top: -60px;
+}
+.page-wrapper .section4 .school{
+    flex: 1;
+    padding: 25px;
+    margin-top: 50px;
+    width: 100%;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: none;
+}
+.results1,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0px;
+    margin-top: -55px;
+}
